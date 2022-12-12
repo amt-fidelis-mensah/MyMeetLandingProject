@@ -7,10 +7,10 @@ grey-color-#87879D
 white-color-#FAFAFA
 */
 body {
-  margin: 0;
   font-family: 'Red Hat Display';
   position: relative;
   overflow: hidden important;
+  text-align: center;
 
   /***   **/
 }
@@ -28,10 +28,7 @@ html, body{
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 1440px;
- 
-}
+
   
 
 
@@ -134,7 +131,7 @@ header {
 
 .group-3 {
   width: 540px;
-  height: 304px;
+  
   align-items: center;
   align-self: flex-end;
   display: flex;
@@ -415,15 +412,23 @@ a.what-is-it-btn:hover {
     margin-bottom: 200px;
   }
 
-  .section-1- {
-    justify-content: center;
+  .first-images {
+    
+    gap: 60px;
+    
+  }
+  
+  .second-images {
+    
+    gap: 60px;
     
   }
 
   .group-3 {
     position: absolute;
-    left: 230px;
-    bottom: 5px;
+    left: 14.37rem;
+    top: 17.6rem;
+    
   }
 
   .bitmap {
@@ -573,7 +578,7 @@ a.what-is-it-btn:hover {
   }
 
   .group-3 {
-    left: -48px;
+    left: -3rem;
   }
 
   .btn {
