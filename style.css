@@ -69,63 +69,16 @@ header {
   padding-bottom: 300px;
 }
 
-.first-images {
-  align-items: flex-end;
-  display: flex;
-  gap: 32px;
-  height: 303px;
+.first-images{
+  
 }
 
-.second-images {
-  align-items: flex-start;
-  display: flex;
-  gap: 32px;
-  height: 303px;
+.second-images{
+
 }
 
-.mask-container-1 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  min-height: 248px;
-  width: 110px;
-}
-
-.mask {
-  width: 110px;
-  height: 110px;
-}
-
-.mask-container-2 {
-  align-items: flex-start;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  min-height: 248px;
-  width: 110px;
-}
-
-.mask-container-3 {
-  align-items: flex-start;
-  align-self: flex-end;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  min-height: 248px;
-  width: 110px;
-}
-
-.mask-container-4 {
-  align-items: flex-start;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  margin-left: 32px;
-  min-height: 248px;
-  width: 110px;
+.mask{
+  width: 30vw;
 }
 
 .group-3 {
@@ -190,7 +143,7 @@ a.download-btn2 {
 a.what-is-it-btn {
   padding: 20px 30px;
   border-radius: 29px;
-  margin-left: 16px;
+  
   font-style: normal;
   font-weight: 900;
   font-size: 1rem;
@@ -416,14 +369,17 @@ a.what-is-it-btn:hover {
 
   .first-images {
     
-    gap: 60px;
+    
     
   }
   
   .second-images {
     
-    gap: 60px;
+   
     
+  }
+  .mask{
+    width: 45vw;
   }
 
   .group-3 {
@@ -472,23 +428,13 @@ a.what-is-it-btn:hover {
     margin: 0 auto;
   }
 
-  .mask-container-4 {
-    align-self: flex-end;
-  }
 
-  .mask-container-3 {
-    align-self: flex-start;
-  }
 }
 
 @media (max-width: 700px) {
 
   
 
-  .mask {
-    width: 55.56px;
-    height: 55.54px;
-  }
 
   .experience-more-together {
     font-size: 32px;
@@ -556,34 +502,21 @@ a.what-is-it-btn:hover {
     height: 78px;
   }
 
-  .first-images {
-    gap: 16px;
+  a.download-btn2 {
+   
+    
+    padding: 19px 30px;
+    
   }
 
-  .second-images {
-    gap: 16px;
-  }
 
-  .mask-container-1 {
-    width: 55.5px;
-  }
 
-  .mask-container-2 {
-    width: 55.5px;
-  }
+  
 
-  .mask-container-4 {
-    width: 55.5px;
-    margin-left: 0;
-  }
 
-  .mask-container-3 {
-    width: 55.5px;
-    margin-left: 16px;
-  }
 
   .group-3 {
-    margin: -14.5rem 21vw;
+    
   }
 
   .btn {
@@ -596,5 +529,6 @@ a.what-is-it-btn:hover {
     font-size: 32px;
     
   }
+
 
 }
