@@ -379,7 +379,7 @@ a.what-is-it-btn:hover {
     
   }
   .mask{
-    width: 45vw;
+    width: 48vw;
   }
 
   .group-3 {
@@ -508,6 +508,12 @@ a.what-is-it-btn:hover {
     padding: 19px 30px;
     
   }
+
+  .meet {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
 
 
 
