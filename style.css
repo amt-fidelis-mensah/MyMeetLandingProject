@@ -113,7 +113,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-left: 32px;
   min-height: 248px;
   width: 110px;
 }
@@ -130,12 +129,13 @@ header {
 }
 
 .group-3 {
-  width: 540px;
   
+  width: 60vw;
   align-items: center;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
+  margin: 0 2rem;
 }
 
 .group-chat {
@@ -166,13 +166,12 @@ header {
 }
 
 .group-2 {
-  height: 58px;
+  
   align-items: flex-start;
   display: flex;
   gap: 16px;
-  margin-right: 4px;
   margin-top: 33px;
-  min-width: 348px;
+  
 }
 
 a.download-btn2 {
@@ -190,12 +189,11 @@ a.download-btn2 {
 
 a.what-is-it-btn {
   padding: 20px 30px;
-  background-color: yellow;
   border-radius: 29px;
   margin-left: 16px;
   font-style: normal;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   color: #FFFFFF;
   background: #855FB1;
@@ -238,6 +236,10 @@ a.what-is-it-btn {
   white-space: nowrap;
   font-style: normal;
   font-family: 'Red Hat Display';
+}
+.v1-31{
+  color: #8FE3F9;
+
 }
 
 .group-7 {
@@ -426,9 +428,7 @@ a.what-is-it-btn:hover {
 
   .group-3 {
     position: absolute;
-    left: 14.37rem;
-    top: 17.6rem;
-    
+    margin: -25.5rem 21vw;
   }
 
   .bitmap {
@@ -469,6 +469,7 @@ a.what-is-it-btn:hover {
 
   .meet-makes-it-easy-t {
     font-size: 16px;
+    margin: 0 auto;
   }
 
   .mask-container-4 {
@@ -491,6 +492,9 @@ a.what-is-it-btn:hover {
 
   .experience-more-together {
     font-size: 32px;
+  }
+  .what-is{
+    margin-top: 3rem;
   }
 
   .stay-connected {
@@ -535,7 +539,8 @@ a.what-is-it-btn:hover {
 
   .group-2 {
     flex-direction: column;
-    min-width: 0;
+    margin-top: 3rem;
+    
   }
 
   .group-chat-for-every {
@@ -578,7 +583,7 @@ a.what-is-it-btn:hover {
   }
 
   .group-3 {
-    left: -3rem;
+    margin: -14.5rem 21vw;
   }
 
   .btn {
@@ -586,6 +591,10 @@ a.what-is-it-btn:hover {
   }
   .group-1 {
     margin:-20px;
+  }
+  .smarter-meetings-al {
+    font-size: 32px;
+    
   }
 
 }
